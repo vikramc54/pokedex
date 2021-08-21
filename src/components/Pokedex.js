@@ -122,7 +122,7 @@ function Pokedex() {
     const [loading, changeLoading, loadingRef] = useState(true);
     const [offset, changeOffset] = useState(0);
 
-    var fetchSize = 30;
+    var fetchSize = 15;
 
     async function fetchPokes(mode="load") {
         changeLoading(true);
